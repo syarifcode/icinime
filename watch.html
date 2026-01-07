@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nonton Anime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: black;">
+    
+    <div id="videoFrame" class="video-container">
+        </div>
+
+    <div class="player-controls">
+        <div class="control-row">
+            <div>
+                <div id="playingTitle" style="color:white; font-size:14px; margin-bottom:4px;">Anime Title</div>
+                <div id="playingEp" class="current-ep">Episode -</div>
+            </div>
+            <div>
+                <a href="javascript:history.back()" style="color:#aaa; font-size:12px; text-decoration:underline;">Kembali</a>
+            </div>
+        </div>
+        
+        <div style="display:flex; align-items:center;">
+            <span style="color:#666; font-size:11px; margin-right:5px;">Kualitas:</span>
+            <div id="resoButtons">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>app.initWatch();</script>
+</body>
+</html>
